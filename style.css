@@ -2,6 +2,8 @@ html {
   font-size: 10px;
 }
 body {
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Fira Sans', sans-serif; */
   font-size: 1.6rem;
   background-image: url(./images/main-bg.jpg);
   background-size: 120% 100vh;
@@ -12,6 +14,9 @@ body {
 }
 li {
   list-style-type: none;
+}
+a {
+  text-decoration: none
 }
 .page {
   max-width: 1200px;
@@ -48,8 +53,12 @@ li {
   cursor: pointer;
 }
 .promo-content {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
+  padding-top: 20px;
+}
+.slider {
+  position: relative;
 }
 .slider-img {
   width: 100%;
@@ -58,6 +67,30 @@ li {
   background-color: #fff;
   width: 100%;
   height: 1000px;
-  margin: -5% auto 10px;
+  margin: -15% auto 15px;
   padding: 50px 0px;
+}
+.slider-title {
+  background-color: #000;
+  opacity: 0.7;
+  margin: -55px 0;
+  padding: 15px;
+  text-align: center;
+
+}
+.title-text {
+  color:#fff;
+  font-size: 1.8rem;
+}
+.main-content {
+  padding-top: 300px;
+}
+.layout-2-column {
+  display: flex;
+}
+.left-column {
+  width: 35%;
+}
+.right-column {
+  width: 65%;
 }
