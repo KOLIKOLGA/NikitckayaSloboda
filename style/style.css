@@ -5,7 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   /* font-family: 'Fira Sans', sans-serif; */
   font-size: 1.6rem;
-  background-image: url(./images/main-bg.jpg);
+  background-image: url(../images/main-bg.jpg);
   background-size: 120% 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -54,11 +54,12 @@ a {
 }
 .promo-content {
   width: 95%;
-  margin: 0 auto;
+  margin: 0 auto -15%;
   padding-top: 20px;
 }
 .slider {
   position: relative;
+  background-color: #000;
 }
 .slider-img {
   width: 100%;
@@ -66,9 +67,12 @@ a {
 .main-content{
   background-color: #fff;
   width: 100%;
-  height: 1000px;
-  margin: -15% auto 15px;
+  height: 100%;
+  margin: 20px auto 15px;
   padding: 50px 0px;
+}
+.main-top {
+  padding-top: 20%;
 }
 .slider-title {
   background-color: #000;
@@ -82,15 +86,43 @@ a {
   color:#fff;
   font-size: 1.8rem;
 }
-.main-content {
-  padding-top: 300px;
-}
+
 .layout-2-column {
   display: flex;
+  gap: 25px;
 }
 .left-column {
   width: 35%;
+  padding-left: 20px;
 }
 .right-column {
   width: 65%;
+  padding-right: 20px;
+}
+.main-description {
+  text-indent: 5rem;
+}
+.room-block {
+  display: flex;
+
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  border: 1px solid #242424;
+}
+.room1-image {
+  width: 100%;
+  padding-bottom: 50%;
+  background-image: url(../images/room1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.room2-image {
+  width: 100%;
+  padding-bottom: 50%;
+  background-image: url(../images/room2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
