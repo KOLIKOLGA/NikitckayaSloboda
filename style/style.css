@@ -88,7 +88,9 @@ a {
 }
 
 .layout-2-column {
+  width: 100%;
   display: flex;
+
   gap: 25px;
 }
 .left-column {
@@ -98,13 +100,13 @@ a {
 .right-column {
   width: 65%;
   padding-right: 20px;
+
 }
 .main-description {
   text-indent: 5rem;
 }
-.room-block {
+.image-block {
   display: flex;
-
   width: 100%;
   height: auto;
   padding: 20px 0px;
@@ -122,6 +124,22 @@ a {
   width: 100%;
   padding-bottom: 50%;
   background-image: url(../images/room2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.block1-image {
+  width: 100%;
+  padding-bottom: 30%;
+  background-image: url(../images/monastery1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.block2-image {
+  width: 100%;
+  padding-bottom: 30%;
+  background-image: url(../images/monastery2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
