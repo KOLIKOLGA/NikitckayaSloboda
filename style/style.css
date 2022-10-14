@@ -12,6 +12,9 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+ul {
+  padding-left: 0;
+}
 li {
   list-style-type: none;
 }
@@ -84,6 +87,7 @@ a {
 }
 .title-text {
   color:#fff;
+  font-family: 'Ruslan Display';
   font-size: 1.8rem;
 }
 
@@ -95,15 +99,60 @@ a {
 }
 .left-column {
   width: 35%;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 .right-column {
   width: 65%;
   padding-right: 20px;
 
 }
+.layout-1-column {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 30px;
+}
 .main-description {
   text-indent: 5rem;
+}
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+.contact-adress {
+  display: flex;
+  gap: 10px;
+
+}
+.ico {
+  width: 40px;
+  height: 40px;
+}
+.ico-adress {
+  background-image: url(../images/icons/map-marker.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  center;
+}
+.ico-phone {
+  background-image: url(../images/icons/phone_call_icon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  center;
+}
+.ico-leter {
+  background-image: url(../images/icons/socialemail.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  center;
+}
+.ico-social {
+  background-image: url(../images/icons/vk_tile_logo_icon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  center;
 }
 .image-block {
   display: flex;
@@ -171,6 +220,22 @@ a {
   width: 100%;
   padding-bottom: 30%;
   background-image: url(../images/block3-4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.block7-image {
+  width: 100%;
+  padding-bottom: 30%;
+  background-image: url(../images/block7.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.block8-image {
+  width: 100%;
+  padding-bottom: 30%;
+  background-image: url(../images/block8.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
