@@ -19,7 +19,11 @@ li {
   list-style-type: none;
 }
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: #4582dd;
+}
+input {
+  padding: 0;
 }
 .page {
   max-width: 1200px;
@@ -77,6 +81,12 @@ a {
 .main-top {
   padding-top: 20%;
 }
+.column-title {
+  font-size: 18;
+}
+.title-colored {
+  color:green;
+}
 .slider-title {
   background-color: #000;
   opacity: 0.7;
@@ -90,7 +100,10 @@ a {
   font-family: 'Ruslan Display';
   font-size: 1.8rem;
 }
-
+.block-center {
+  margin: 0 auto;
+  text-align: center;
+}
 .layout-2-column {
   width: 100%;
   display: flex;
@@ -104,10 +117,12 @@ a {
 .right-column {
   width: 65%;
   padding-right: 20px;
-
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 .layout-1-column {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -115,6 +130,7 @@ a {
 }
 .main-description {
   text-indent: 5rem;
+  line-height: 1.5;
 }
 .contact-list {
   display: flex;
@@ -124,7 +140,7 @@ a {
 .contact-adress {
   display: flex;
   gap: 10px;
-
+  align-items: center;
 }
 .ico {
   width: 40px;
@@ -143,7 +159,7 @@ a {
   background-position:  center;
 }
 .ico-leter {
-  background-image: url(../images/icons/socialemail.svg);
+  background-image: url(../images/icons/email_icon.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:  center;
@@ -153,6 +169,38 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position:  center;
+}
+.layout-1-column input {
+  width: 90%;
+  padding: 7px 7px;
+  font-size: 14px;
+
+}
+.contact-us__button button {
+  width: 70%;
+  background-color: #4582dd;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.excursion-button {
+  margin-top: 50px;
+}
+.excursion-link button {
+  width: 50%;
+  background-color: #4582dd;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.description-colored {
+  color: #333399;
 }
 .image-block {
   display: flex;
@@ -239,4 +287,101 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.pilgrimages {
+  padding-top: 50px;
+}
+.pilgrimages-list {
+  padding-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+.pilgrimage-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pilgrimage-image1 {
+  background-image: url(../images/monastery2.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image2 {
+  background-image: url(../images/monastery3.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image3 {
+  background-image: url(../images/GoldenRing.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.excursion-image {
+  width: 100%;
+  background-image: url(../images/monastery2.jpg);
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  height: 0;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.video-container iframe {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  outline-width: 0;
+}
+.title__margin-top {
+  margin-top: 50px;
+}
+.nikitaStolpnik-image {
+  background-image: url(../images/nikitaStolpnik.jpg);
+  width: 60%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.virigi-image {
+  background-image: url(../images/virigi.jpg);
+  width: 60%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+  margin-left: 20px;
 }
