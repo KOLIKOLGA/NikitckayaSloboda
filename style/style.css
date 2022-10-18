@@ -134,7 +134,7 @@ input {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
   margin-bottom: 30px;
 }
 .main-description {
@@ -420,4 +420,20 @@ input {
   background-size: cover;
   margin-right: 20px;
   margin-left: 20px;
+}
+.schedule-list {
+  display: flex;
+  gap: 30px;
+
+}
+.schedule-item {
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #000;
+  gap: 5px;
+}
+.font-size {
+  font-size: 24px;
+  font-weight: 700;
 }
