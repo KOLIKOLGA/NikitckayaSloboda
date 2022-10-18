@@ -25,6 +25,7 @@ li {
 a {
   text-decoration: none;
   color: #4582dd;
+  display: block;
 }
 input {
   padding: 0;
@@ -87,6 +88,7 @@ input {
 }
 .column-title {
   font-size: 18;
+  padding: 10px;
 }
 .title-colored {
   color:green;
@@ -111,15 +113,18 @@ input {
 .layout-2-column {
   width: 100%;
   display: flex;
-
-  gap: 25px;
+  gap: 20px;
 }
 .left-column {
-  width: 35%;
+  width: 25%;
   /* padding-left: 20px; */
 }
+.left-column img {
+  width: 100%;
+
+}
 .right-column {
-  width: 65%;
+  width: 75%;
   padding-right: 20px;
   display: flex;
   flex-direction: column;
@@ -135,6 +140,7 @@ input {
 .main-description {
   text-indent: 5rem;
   line-height: 1.5;
+  padding: 5px 0;
 }
 .contact-list {
   display: flex;
@@ -143,9 +149,14 @@ input {
 }
 .contact-adress {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
   align-items: center;
+}
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
 }
 .ico {
   width: 40px;
@@ -164,7 +175,7 @@ input {
   background-position:  center;
 }
 .ico-leter {
-  background-image: url(../images/icons/email_icon.svg);
+  background-image: url(../images/icons/socialemail.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position:  center;
@@ -175,6 +186,7 @@ input {
   background-repeat: no-repeat;
   background-position:  center;
 }
+
 .layout-1-column input {
   width: 90%;
   padding: 7px 7px;
@@ -311,15 +323,22 @@ input {
   padding-top: 30px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
-  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
 }
 .pilgrimage-item {
   width: 30%;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  gap: 10px;
+}
+.pilgrimage-title {
+  padding: 15px;
 }
 .pilgrimage-image1 {
   background-image: url(../images/monastery2.jpg);
