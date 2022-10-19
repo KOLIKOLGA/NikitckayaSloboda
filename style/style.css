@@ -85,6 +85,12 @@ input {
 }
 .main-top {
   padding-top: 20%;
+  padding-bottom: 10%;
+}
+.head-row {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
 }
 .column-title {
   font-size: 18;
@@ -157,6 +163,11 @@ input {
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+}
+.social-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
 }
 .ico {
   width: 40px;
@@ -336,6 +347,7 @@ input {
   align-items: center;
   justify-content: start;
   gap: 10px;
+  padding-top: 20px;
 }
 .pilgrimage-title {
   padding: 15px;
@@ -364,6 +376,105 @@ input {
 }
 .pilgrimage-image3 {
   background-image: url(../images/GoldenRing.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image4 {
+  background-image: url(../images/monastery4.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image5 {
+  background-image: url(../images/monastery5.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image6 {
+  background-image: url(../images/monastery6.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image7 {
+  background-image: url(../images/monastery7.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image8 {
+  background-image: url(../images/monastery8.png);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image9 {
+  background-image: url(../images/monastery9.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image10 {
+  background-image: url(../images/saintSpring.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image11 {
+  background-image: url(../images/saintSpring2.jpg);
+  width: 80%;
+  /* height: 80%; */
+  padding-bottom: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.pilgrimage-image12 {
+  background-image: url(../images/tumbMS.jpg);
   width: 80%;
   /* height: 80%; */
   padding-bottom: 80%;
