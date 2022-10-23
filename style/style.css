@@ -535,10 +535,11 @@ input {
 .schedule-list {
   display: flex;
   gap: 30px;
-
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .schedule-item {
-  width: 40%;
+  width: 50%;
   padding: 20px;
   text-align: center;
   border: 1px solid #000;
