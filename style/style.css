@@ -594,3 +594,21 @@ input {
   background-position: center;
   margin: 0 10px;
 }
+.solba1-image {
+  width: 100%;
+  padding-bottom: 50%;
+  background-image: url(../images/solba1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
+}
+.godenovo1-image {
+  width: 100%;
+  padding-bottom: 50%;
+  background-image: url(../images/godenovo1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
+}
