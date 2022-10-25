@@ -94,7 +94,7 @@ input {
 }
 .column-title {
   font-size: 18;
-  padding: 10px;
+  padding: 20px 0px;
 }
 .title-colored {
   color:green;
@@ -542,10 +542,55 @@ input {
   width: 50%;
   padding: 20px;
   text-align: center;
-  border: 1px solid #000;
+  border: 2px solid goldenrod;
   gap: 5px;
 }
 .font-size {
   font-size: 24px;
   font-weight: 700;
+}
+.varvarin1-image {
+  width: 80%;
+  padding-bottom: 30%;
+  background-image: url(../images/varvarin1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px 0 20px;
+}
+.varvarin2-image {
+  width: 80%;
+  padding-bottom: 30%;
+  background-image: url(../images/varvarin2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 20px 0 0;
+}
+.nikita1-image {
+  width: 30%;
+  padding-bottom: 30%;
+  background-image: url(../images/nikita1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px 0 3%;
+}
+.nikita2-image {
+  width: 30%;
+  padding-bottom: 30%;
+  background-image: url(../images/nikita2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
+}
+.nikita3-image {
+  width: 30%;
+  padding-bottom: 30%;
+  background-image: url(../images/nikita3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
 }
