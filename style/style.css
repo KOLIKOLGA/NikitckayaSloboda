@@ -52,18 +52,26 @@ input {
 .visually-hidden {
   display: none;
 }
+.navigation-block {
+  max-width: 100%;
+  display: flex;
+}
 .navigation-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 0;
   width: 100%;
-  height: 46px;
+  height: 66px;
   background-color: #000;
   opacity: 0.4;
   margin: 0;
 }
 .navigation-link {
+  display: block;
+  width: 100%;
+  padding: 0 5px;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
