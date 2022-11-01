@@ -52,9 +52,27 @@ input {
 .visually-hidden {
   display: none;
 }
+.logo {
+  margin-bottom: 10px;
+}
 .navigation-block {
   max-width: 100%;
   display: flex;
+  position: relative;
+  z-index: 2;
+  order: 2;
+}
+.navigation-block__background {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  order: 1;
+  z-index: 0;
 }
 .navigation-list {
   display: flex;
@@ -63,10 +81,10 @@ input {
   align-items: center;
   padding: 0;
   width: 100%;
-  height: 66px;
-  background-color: #000;
-  opacity: 0.4;
+  height: 100%;
+  color: #fff;
   margin: 0;
+  z-index: 3;
 }
 .navigation-link {
   display: block;
@@ -76,6 +94,20 @@ input {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+}
+.navigation-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  width: 150px;
+  height: 66px;
+}
+.navigation-item:hover {
+  background-color: #000;
+  opacity: 0.9;
 }
 .promo-content {
   width: 95%;
@@ -388,9 +420,8 @@ input {
   border: 1px solid #000;
 }
 .pilgrimage-image3 {
-  background-image: url(../images/GoldenRing.jpg);
+  background-image: url(../images/GoldRing.jpg);
   width: 80%;
-  /* height: 80%; */
   padding-bottom: 80%;
   background-repeat: no-repeat;
   background-position: center;

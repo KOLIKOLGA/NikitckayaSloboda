@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/normalize.css">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Никитский монастырь</title>
   </head>
   <body>
@@ -13,163 +13,243 @@
       <header class="header">
         <div class="wrapper">
           <div class="logo">
-            <a href="index.html"><img
-              class="header-logo"
-              max-width="215"
-              max-height="67"
-              src="./images/header-title.png"
-              alt="#"
+            <a href="index.html"
+              ><img
+                class="header-logo"
+                max-width="215"
+                max-height="67"
+                src="./images/header-title.png"
+                alt="#"
             /></a>
             <h1 class="visually-hidden">
               Паломнический центр 'Никитская слобода'
             </h1>
           </div>
-          <ul class="navigation-list">
-            <li class="navigation-item">
-              <a class="navigation-link" href="index.html">Глав</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="excursions.html">Экскурсии</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="residence.html">Проживание</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="challenging.html">Трудничество</a>
-            </li>
-            <li class="navigation-item">
-              <a class="navigation-link" href="monasterys.html">Монастыри</a>
-            </li>
-             <li class="navigation-item">
-              <a class="navigation-link" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
+          <nav class="navigation-block">
+            <div class="navigation-block__background"></div>
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a class="navigation-link" href="index.html">Глав</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="excursions.html">Экскурсии</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="residence.html">Проживание</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="challenging.html"
+                  >Трудничество</a
+                >
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="monasterys.html">Монастыри</a>
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </header>
       <section class="main-content">
         <div class="wrapper">
-         <div class="layout-2-column">
-           <div class="left-column">
-               <img src="./images/left-column-image.png"  alt="">
-                <div class="social-list">
-            <h3 class="column-title">Контакты</h3>
-            <div class="contact-content">
-              <ul class="contact-list">
-               <li class="contact-adress">
-                <div class=" ico ico-adress" ></div>
-                <div>
-                 152020, Россия, Переславль-Залесский, <br>улица Нефтеразведка, дом 6.
+          <div class="layout-2-column">
+            <div class="left-column">
+              <img src="./images/left-column-image.png" alt="" />
+              <div class="social-list">
+                <h3 class="column-title">Контакты</h3>
+                <div class="contact-content">
+                  <ul class="contact-list">
+                    <li class="contact-adress">
+                      <div class="ico ico-adress"></div>
+                      <div>
+                        152020, Россия, Переславль-Залесский, <br />улица
+                        Нефтеразведка, дом 6.
+                      </div>
+                    </li>
+                    <li class="contact-adress">
+                      <div class="ico ico-phone"></div>
+                      <div>+7 (985) 743-73-24</div>
+                    </li>
+                    <li class="contact-adress">
+                      <div class="ico ico-leter"></div>
+                      <a href="mailto:palomcentr@yandex.ru"
+                        >palomcentr@yandex.ru</a
+                      >
+                    </li>
+                  </ul>
                 </div>
-               </li>
-               <li class="contact-adress">
-                 <div class="ico ico-phone"></div>
-                 <div>+7 (985) 743-73-24</div>
-               </li>
-               <li class="contact-adress">
-                 <div class="ico ico-leter"></div
-                 ><a href="mailto:palomcentr@yandex.ru">palomcentr@yandex.ru</a>
-               </li>
-              </ul>
-            </div>
-             </div>
+              </div>
               <div class="social-list">
                 <h3 class="column-title">Рассылка</h3>
                 <form action="https://echo.htmlacademy.ru/" method="post">
-                 <div class="layout-1-column">
-                   <input type="text" name="fio" placeholder="Представьтесь, пожалуйста" required/>
-                   <input type="email" name="email" placeholder="Введите адрес эл. почты" required/>
-                 </div>
-                 <!-- <textarea name="qestion" cols="30" rows="10"></textarea> -->
-                 <div class="contact-us__button">
-                   <button type="submit" class="button button__colored">
-                     Подписаться
-                   </button>
-                 </div>
+                  <div class="layout-1-column">
+                    <input
+                      type="text"
+                      name="fio"
+                      placeholder="Представьтесь, пожалуйста"
+                      required
+                    />
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="Введите адрес эл. почты"
+                      required
+                    />
+                  </div>
+                  <!-- <textarea name="qestion" cols="30" rows="10"></textarea> -->
+                  <div class="contact-us__button">
+                    <button type="submit" class="button button__colored">
+                      Подписаться
+                    </button>
+                  </div>
                 </form>
+              </div>
+              <div class="social-list">
+                <h3 class="column-title">Мы в социальных сетях</h3>
+                <div class="social-links">
+                  <a href="https://vk.com/palomcentr" target="_blank">
+                    <div class="ico ico-social"></div
+                  ></a>
+                  <a href="https://vk.com/palomcentr">
+                    Паломцентр "Никитская Слобода"</a
+                  >
                 </div>
-       <div class="social-list">
-        <h3 class="column-title">Мы в социальных сетях</h3>
-        <div class="social-links">
-         <a href="https://vk.com/palomcentr" target="_blank">
-           <div class="ico ico-social"></div></a>
-           <a href="https://vk.com/palomcentr"> Паломцентр "Никитская Слобода"</a>
-       </div>
-       </div>
-           </div>
-           <!--left column-->
-           <div class="right-column">
-            <h3 class="column-title title__margin-top">Никитский мужской монастырь г.Переславль-Залесский</h3>
-            <h2 class="column-title title-colored ">Ники́тский монасты́рь — мужской монастырь</h2>
-            <h3 class="column-title title__margin-top">Адрес: Переславский район, Никитская слобода, ул. Запрудная, 20</h3>
-            <p class="main-description"> Расположенный на северной окраине города Переславля-Залесскогона берегу Плещеева озера. Один из древнейших монастырей России. Посвящён святому великомученику Никите Готфскому.
-               Здесь также покоятся мощи и сохраняются вериги святого преподобного Никиты Столпника.</p>
-            <p class="main-description">Согласно сказанию Степенной книги, князь Владимир Святославич отдал Ростово-Суздальскую область своему сыну Борису. Нынешние насельники считают 1010 год датой основания святой обители. Именно в это время Борис и епископ Иларион основали первые церкви на Плещеевом озере, утверждая таким образом христианство на языческих землях[1].
-                Возможно, что одна из этих церквей и стала основой будущего монастыря</p>
-                <div class="excursion-image"></div>
-                <div class="video-container">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/ID-xker2peg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               </div>
-               <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/gHlDOI4coHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             </div>
-             <h3 class="column-title title__margin-top">Мощи святых:</h3>
-             <p class="main-description">Мощи и вериги прп. Никиты Столпника.<br>При монастыре находится целебный источник прп. Никиты.</p>
-             <div class="image-block">
-              <div class="virigi-image"></div>
-             <div class="nikitaStolpnik-image"></div>
+              </div>
             </div>
-             <h3 class="column-title title__margin-top">Храмы монастыря:</h3>
-             <ol class="khram-list">
-              <li class="main-description" >1.Собор Никиты Мученика</li>
-              <li class="main-description" >2.Церковь Благовещения Пресвятой Богородицы</li>
-              <li class="main-description" >3.Церковь Архангела Гавриила в колокольне</li>
-              <li class="main-description" >4.Часовня</li>
-             </ol>
-             <h3 class="column-title title__margin-top">Архитектура:</h3>
-             <p class="main-description">Находящийся на возвышенности монастырь окружен каменными стенами с башнями, амбразурами и бойницами.</p>
-             <p class="main-description">В обители три храма: храм во имя вмч. Никиты; трапезная церковь в честь Благовещения Богородицы; храм во имя св. Архангела Гавриила.</p>
-             <p class="main-description">Особенный архитектурный интерес представляют монастырские стены и башни XVI века, а также пятиглавый Никитский собор 1564 года.</p>
-
-
-             <div class="schedule-list title__margin-top">
-              <div class="schedule-item">
-                <p class="column-title font-size">БОГОСЛУЖЕНИЯ</p>
-                <p class="column-title font-size">В БЛАГОВЕЩЕНСКОМ ХРАМЕ</p>
-                <p class="column-title font-size">НИКИТСКОГО МОНАСТЫРЯ</p>
-                <p class="column-title font-size">начало часов - 8.00</p>
-                <p class="column-title font-size">литургия - 8.30</p>
-                <p class="column-title font-size">вечернее<br> богослужение - 16.00</p>
-                <p class="column-title font-size">В ВОСКРЕСЕНЬЕ И </p>
-                <p class="column-title font-size">ПРАЗДНИЧНЫЕ ДНИ</p>
-                <p class="column-title font-size">НАЧАЛО</p>
-                <p class="column-title font-size">БОЖЕСТВЕННОЙ</p>
-                <p class="column-title font-size">ЛИТУРГИИ</p>
-                <p class="column-title font-size">В 9 ЧАСОВ</p>
+            <!--left column-->
+            <div class="right-column">
+              <h3 class="column-title title__margin-top">
+                Никитский мужской монастырь г.Переславль-Залесский
+              </h3>
+              <h2 class="column-title title-colored">
+                Ники́тский монасты́рь — мужской монастырь
+              </h2>
+              <h3 class="column-title title__margin-top">
+                Адрес: Переславский район, Никитская слобода, ул. Запрудная, 20
+              </h3>
+              <p class="main-description">
+                Расположенный на северной окраине города Переславля-Залесскогона
+                берегу Плещеева озера. Один из древнейших монастырей России.
+                Посвящён святому великомученику Никите Готфскому. Здесь также
+                покоятся мощи и сохраняются вериги святого преподобного Никиты
+                Столпника.
+              </p>
+              <p class="main-description">
+                Согласно сказанию Степенной книги, князь Владимир Святославич
+                отдал Ростово-Суздальскую область своему сыну Борису. Нынешние
+                насельники считают 1010 год датой основания святой обители.
+                Именно в это время Борис и епископ Иларион основали первые
+                церкви на Плещеевом озере, утверждая таким образом христианство
+                на языческих землях[1]. Возможно, что одна из этих церквей и
+                стала основой будущего монастыря
+              </p>
+              <div class="excursion-image"></div>
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/ID-xker2peg"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
-              <div class="schedule-item">
-                <p class="column-title font-size">БРАТЬЯ И СЕСТРЫ</p>
-                <p class="column-title font-size">КАЖДОЕ</p>
-                <p class="column-title font-size">ВОСКРЕСЕНЬЕ</p>
-                <p class="column-title font-size">В МОНАСТЫРЕ</p>
-                <p class="column-title font-size">В БЛАГОВЕЩЕНСКОМ</p>
-                <p class="column-title font-size">ХРАМЕ в 14 : 00</p>
-                <p class="column-title font-size">ПРОВЕДИТСЯ</p>
-                <p class="column-title font-size description-colored">ТАИНСТВО</p>
-                <p class="column-title font-size description-colored">СОБОРОВАНИЯ</p>
+              <div class="video-container">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/gHlDOI4coHc"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
-             </div>
-             <h3 class="column-title title__margin-top">Группа в Контакте</h3>
-             <div class="social-links">
-              <a href="https://vk.com/nikitastolpnik" target="_blank">
-                <div class="ico ico-social"></div>
-               </a>
-               <a href="https://vk.com/nikitastolpnik" target="_blank">Никитский монастырь г.Переславль</a>
-             </div>
-           </div>
-         </div>
+              <h3 class="column-title title__margin-top">Мощи святых:</h3>
+              <p class="main-description">
+                Мощи и вериги прп. Никиты Столпника.<br />При монастыре
+                находится целебный источник прп. Никиты.
+              </p>
+              <div class="image-block">
+                <div class="virigi-image"></div>
+                <div class="nikitaStolpnik-image"></div>
+              </div>
+              <h3 class="column-title title__margin-top">Храмы монастыря:</h3>
+              <ol class="khram-list">
+                <li class="main-description">1.Собор Никиты Мученика</li>
+                <li class="main-description">
+                  2.Церковь Благовещения Пресвятой Богородицы
+                </li>
+                <li class="main-description">
+                  3.Церковь Архангела Гавриила в колокольне
+                </li>
+                <li class="main-description">4.Часовня</li>
+              </ol>
+              <h3 class="column-title title__margin-top">Архитектура:</h3>
+              <p class="main-description">
+                Находящийся на возвышенности монастырь окружен каменными стенами
+                с башнями, амбразурами и бойницами.
+              </p>
+              <p class="main-description">
+                В обители три храма: храм во имя вмч. Никиты; трапезная церковь
+                в честь Благовещения Богородицы; храм во имя св. Архангела
+                Гавриила.
+              </p>
+              <p class="main-description">
+                Особенный архитектурный интерес представляют монастырские стены
+                и башни XVI века, а также пятиглавый Никитский собор 1564 года.
+              </p>
+
+              <div class="schedule-list title__margin-top">
+                <div class="schedule-item">
+                  <p class="column-title font-size">БОГОСЛУЖЕНИЯ</p>
+                  <p class="column-title font-size">В БЛАГОВЕЩЕНСКОМ ХРАМЕ</p>
+                  <p class="column-title font-size">НИКИТСКОГО МОНАСТЫРЯ</p>
+                  <p class="column-title font-size">начало часов - 8.00</p>
+                  <p class="column-title font-size">литургия - 8.30</p>
+                  <p class="column-title font-size">
+                    вечернее<br />
+                    богослужение - 16.00
+                  </p>
+                  <p class="column-title font-size">В ВОСКРЕСЕНЬЕ И</p>
+                  <p class="column-title font-size">ПРАЗДНИЧНЫЕ ДНИ</p>
+                  <p class="column-title font-size">НАЧАЛО</p>
+                  <p class="column-title font-size">БОЖЕСТВЕННОЙ</p>
+                  <p class="column-title font-size">ЛИТУРГИИ</p>
+                  <p class="column-title font-size">В 9 ЧАСОВ</p>
+                </div>
+                <div class="schedule-item">
+                  <p class="column-title font-size">БРАТЬЯ И СЕСТРЫ</p>
+                  <p class="column-title font-size">КАЖДОЕ</p>
+                  <p class="column-title font-size">ВОСКРЕСЕНЬЕ</p>
+                  <p class="column-title font-size">В МОНАСТЫРЕ</p>
+                  <p class="column-title font-size">В БЛАГОВЕЩЕНСКОМ</p>
+                  <p class="column-title font-size">ХРАМЕ в 14 : 00</p>
+                  <p class="column-title font-size">ПРОВЕДИТСЯ</p>
+                  <p class="column-title font-size description-colored">
+                    ТАИНСТВО
+                  </p>
+                  <p class="column-title font-size description-colored">
+                    СОБОРОВАНИЯ
+                  </p>
+                </div>
+              </div>
+              <h3 class="column-title title__margin-top">Группа в Контакте</h3>
+              <div class="social-links">
+                <a href="https://vk.com/nikitastolpnik" target="_blank">
+                  <div class="ico ico-social"></div>
+                </a>
+                <a href="https://vk.com/nikitastolpnik" target="_blank"
+                  >Никитский монастырь г.Переславль</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
-         </section>
+      </section>
     </page>
   </body>
 </html>
