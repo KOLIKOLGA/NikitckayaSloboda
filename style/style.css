@@ -46,6 +46,10 @@ input {
   gap: 20px;
   align-items: center;
 }
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
 .header{
   padding-top: 42px;
 }
