@@ -656,3 +656,30 @@ input {
   background-position: center;
   margin: 0 10px;
 }
+.godenovo2-image {
+  width: 100%;
+  padding-bottom: 50%;
+  background-image: url(../images/godenovoCross.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
+}
+.godenovo3-image {
+  width: 100%;
+  padding-bottom: 80%;
+  background-image: url(../images/goToGodenovo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
+}
+.godenovo4-image {
+  width: 100%;
+  padding-bottom: 80%;
+  background-image: url(../images/godenovoInformation.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 10px;
+}
