@@ -32,7 +32,24 @@ input {
 }
 .page {
   max-width: 1200px;
-
+  position: relative;
+}
+.page-up {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  bottom: 10%;
+}
+.button-up {
+  margin-left: 40px;
+  padding: 10px 20px;
+  background-color: #4582dd;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .wrapper {
   width: 98%;
@@ -129,12 +146,12 @@ input {
   background-color: #fff;
   width: 100%;
   height: 100%;
-  margin: 20px auto 15px;
+  margin: 20px auto 0px;
   padding: 50px 0px;
 }
 .main-top {
   padding-top: 20%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 .head-row {
   display: flex;
@@ -173,7 +190,7 @@ input {
 }
 .left-column {
   width: 25%;
-  /* padding-left: 20px; */
+
 }
 .left-column img {
   width: 70%;
@@ -213,6 +230,7 @@ input {
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+  margin-bottom: 90%;
 }
 .social-list {
   display: flex;
@@ -288,6 +306,7 @@ input {
   width: 100%;
   padding: 20px 0px;
   border: 1px solid #242424;
+  margin: 20px 0px;
 }
 .room1-image {
   width: 100%;
@@ -731,4 +750,68 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 10px;
+}
+.monastery51-image {
+  background-image: url(../images/monastery5.jpg);
+  width: 100%;
+  padding-bottom: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.stAndrey-image {
+  background-image: url(../images/StAndrey.jpg);
+  width: 100%;
+  padding-bottom: 55%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.korneliy-image {
+  background-image: url(../images/korneliy.jpg);
+  width: 100%;
+  padding-bottom: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.korsunskiy1-image {
+  background-image: url(../images/korsunskiy.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.korsunskiy2-image {
+  background-image: url(../images/pereslavl-zalesskiy_70.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.nikolskiy1-image {
+  background-image: url(../images/nikolskiy1.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.nikolskiy2-image {
+  background-image: url(../images/nikolskiy2.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.gorickiy-image {
+  background-image: url(../images/gorickiy.jpg);
+  width: 100%;
+  padding-bottom: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
