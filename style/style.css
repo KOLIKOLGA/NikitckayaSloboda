@@ -34,22 +34,41 @@ input {
   max-width: 1200px;
   position: relative;
 }
-.page-up {
+/* .page-up {
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
   position: sticky;
-  bottom: 10%;
-}
+  top: 40%;
+  bottom: 5%;
+} */
+/* .scroll-container {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+} */
 .button-up {
-  margin-left: 40px;
+  width: max-content;
+  display: flex;
+  position: fixed;
+  left: 40px;
+  bottom: 40px;
   padding: 10px 20px;
   background-color: #4582dd;
   color: #fff;
   border-color: transparent;
   border-radius: 5px;
   cursor: pointer;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease;
+}
+.button-up._active {
+  visibility: visible;
+  opacity: 1;
 }
 .wrapper {
   width: 98%;
@@ -194,7 +213,7 @@ input {
 }
 .left-column {
   width: 25%;
-
+  position: relative;
 }
 .left-column img {
   width: 70%;
