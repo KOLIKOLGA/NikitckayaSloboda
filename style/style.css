@@ -468,6 +468,16 @@ input {
 }
 .pilgrimage-title {
   padding: 15px;
+  transition: all .5s ease;
+}
+.pilgrimage-title:hover {
+  background-color: #4582dd;
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pilgrimage-title:hover a {
+  color: #fff;
 }
 .pilgrimage-image1 {
   background-image: url(../images/monastery2.jpg);
@@ -895,7 +905,21 @@ input {
     justify-content: space-around;
   }
   .column-image {
+    background-image: url(../images/logo-type.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
-    height: 200px;
+    padding-bottom: 10%;
+  }
+  .social-list {
+    display: flex;
+    flex-direction:row;
+  }
+  .column-image img {
+    opacity: 0;
   }
 }
