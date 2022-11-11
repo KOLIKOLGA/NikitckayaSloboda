@@ -875,3 +875,27 @@ input {
   background-repeat: no-repeat;
   background-position: center;
 }
+@media (max-width: 768px) {
+  .layout-2-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .right-column {
+    width: 90%;
+    order: 1;
+    margin: 0 auto;
+    padding-right: 0px;
+  }
+  .left-column {
+    width: 90%;
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .column-image {
+    width: 200px;
+    height: 200px;
+  }
+}
