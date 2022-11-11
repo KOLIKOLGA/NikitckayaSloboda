@@ -10,7 +10,7 @@
     />
     <meta
       name="keywords"
-      content="Паломнический центр 'Никитская слобода', палом центр, паломничество переславль, паломничество"
+      content="Паломнический центр 'Никитская слобода', палом центр, паломничество переславль, паломничество, религиозный туризм "
     />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -119,69 +119,44 @@
         <div class="wrapper">
           <div class="layout-2-column">
             <div class="left-column">
-              <img
-                src="./images/left-column-image.png"
-                alt="герб города Переславль-Залесский"
-                class="left-column__image"
-              />
+              <img src="./images/left-column-image.png" alt="" />
               <div class="social-list">
                 <h3 class="column-title">Контакты</h3>
                 <div class="contact-content">
                   <ul class="contact-list">
                     <li class="contact-adress">
                       <div class="ico ico-adress"></div>
-                      <div>
+                      <div class="contact-list">
                         152020, Россия, Переславль-Залесский, <br />улица
-                        Нефтеразведка, дом 6.
+                        Нефтеразведка, дом 6.<br />
+                        Паломническая служба "Никитская слобода"
+                        <a
+                          href="https://yandex.ru/maps/-/CCUbY8aOoA"
+                          target="_blank"
+                          >открыть в Яндекс Карты</a
+                        >
                       </div>
                     </li>
                     <li class="contact-adress">
                       <div class="ico ico-phone"></div>
-                      <div>+7 (985) 743-73-24</div>
-                    </li>
-                    <li class="contact-adress">
-                      <div class="ico ico-leter"></div>
-                      <a href="mailto:palomcentr@yandex.ru"
-                        >palomcentr@yandex.ru</a
-                      >
+                      <div>
+                        <a href="tel:+7(985)743-73-24">+7 (985) 743-73-24</a>
+                      </div>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="social-list">
-                <h3 class="column-title">Рассылка</h3>
-                <form action="https://echo.htmlacademy.ru/" method="post">
-                  <div class="layout-1-column">
-                    <input
-                      type="text"
-                      name="name"
-                      placeholder="Представьтесь, пожалуйста"
-                      required
-                    />
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Введите адрес эл. почты"
-                      required
-                    />
-                  </div>
-                  <!-- <textarea name="qestion" cols="30" rows="10"></textarea> -->
-                  <div class="contact-us__button">
-                    <button type="submit" class="button button__colored">
-                      Подписаться
-                    </button>
-                  </div>
-                </form>
-              </div>
 
-              <h3 class="column-title">Мы в социальных сетях</h3>
-              <div class="social-links">
-                <a href="https://vk.com/palomcentr" target="_blank">
-                  <div class="ico ico-social"></div>
-                </a>
-                <a href="https://vk.com/palomcentr"
-                  >Паломцентр "Никитская Слобода"</a
-                >
+              <div class="social-list">
+                <h3 class="column-title">Мы в социальных сетях</h3>
+                <div class="social-links">
+                  <a href="https://vk.com/palomcentr" target="_blank">
+                    <div class="ico ico-social"></div
+                  ></a>
+                  <a href="https://vk.com/palomcentr">
+                    Паломцентр "Никитская Слобода"</a
+                  >
+                </div>
               </div>
             </div>
             <div class="right-column">
@@ -189,20 +164,27 @@
               <p class="main-description">
                 Паломнический центр "Никитская слобода"при Никитском монастыре
                 предлагаем Вам отправиться в паломническую поездку к
-                православным святыням Переславля-Залесского и Ярославской обл.в
-                удобный для Вас день
+                православным святыням Переславля-Залесского и Ярославской
+                области в удобный для Вас день
               </p>
               <p class="main-description">
                 Вы сможете побывать на богослужениях, приложиться к святыням
                 монастырей и скитов, набрать святой воды и окунуться в
-                чудотворных источниках. Так-же есть место для размещения
-                паломников.
+                чудотворных источниках.
               </p>
-              <p class="main-description">
+              <p class="main-description display-flex">
+                Так-же есть место для размещения паломников.
+              </p>
+              <a href="./residence.html" class="display-flex translate"
+                >подробнее ... <span class="arrow-right"></span
+              ></a>
+              <p class="main-description display-flex">
                 Паломническая служба «Никитская Слобода» оказывает содействие
                 желающим посетить монастыри
-                <a href="excursions.html">подробнее</a>
               </p>
+              <a href="excursions.html" class="display-flex translate"
+                >подробнее ... <span class="arrow-right"></span
+              ></a>
               <div class="excursion-button block-center">
                 <a href="./excursions.html" class="excursion-link">
                   <button type="button" class="button button-colored">
@@ -346,6 +328,7 @@
         </div>
       </section>
     </page>
+    <script src="./app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
   </body>
 </html>
