@@ -665,7 +665,7 @@ input {
   justify-content: center;
 }
 .schedule-item {
-  width: 50%;
+  width: 70%;
   padding: 20px;
   text-align: center;
   border: 2px solid goldenrod;
@@ -884,6 +884,22 @@ input {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.feodorovskiy-image {
+  background-image: url(../images/monastery3.jpg);
+  width: 100%;
+  padding-bottom: 65%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.feodorovskiy2-image {
+  background-image: url(../images/feodorovskiy2.jpg);
+  width: 100%;
+  padding-bottom: 44%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 @media (max-width: 768px) {
   .layout-2-column {
