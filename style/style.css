@@ -72,6 +72,10 @@ input {
   margin: 0 auto;
 
 }
+.wrapper-link {
+  display: flex;
+  flex-direction:column;
+}
 .display-flex {
   display: flex;
   gap: 20px;
@@ -88,7 +92,7 @@ input {
 }
 
 .width-500 {
-  width: 500px;
+  max-width: 500px;
 }
 .arrow-right {
   width: 40px;
@@ -346,6 +350,17 @@ input {
 }
 .description-colored {
   color: #333399;
+}
+.number-page {
+  padding: 5px;
+  background: #c4c4c4;
+  border-radius: 3px;
+}
+.number-page__disabled {
+  padding: 5px;
+  background: #282f37;
+  color:#fff;
+  border-radius: 3px;
 }
 .image-block {
   display: flex;
