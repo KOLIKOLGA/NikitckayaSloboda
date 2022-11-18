@@ -369,7 +369,7 @@ input {
   display: flex;
   width: 100%;
   padding: 20px 0px;
-  border: 1px solid #242424;
+  border: 1px solid #555555;
   margin: 20px 0px;
   box-shadow: 1px 1px 3px #999999;
 }

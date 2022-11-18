@@ -24,14 +24,16 @@
       type="image/x-icon"
     />
     <title>
-      Паломнический центр "Никитская слобода" г. Переславль-Залесский город
-      золотого кольца россии.предлагаем Вам отправиться в паломническую поездку
-      в Годеново
+      Годеново: Чудотворный Крест.Паломнический центр "Никитская слобода" г.
+      Переславль-Залесский город золотого кольца россии.предлагаем Вам
+      отправиться в паломническую поездку в Годеново
     </title>
+    <script src="./scrollToTop.js" defer></script>
   </head>
   <body>
     <page class="page">
-      <header class="header">
+      <div class="button-up">на верх</div>
+      <header class="header" id="header">
         <div class="wrapper">
           <div class="logo">
             <a href="index.html"
@@ -135,7 +137,9 @@
               </div>
             </div>
             <div class="right-column">
-              <a href="./articles.html"><h2 class="column-title">Статьи</h2></a>
+              <h2 class="column-title font-size36">
+                <a href="./articles.html">Статьи</a>
+              </h2>
               <h2 class="column-title title-colored">
                 Годеново: Чудотворный Крест
               </h2>
@@ -146,12 +150,13 @@
               <div class="image-block">
                 <div class="godenovo1-image"></div>
               </div>
-              <a
-                href="https://www.godenovo.ru/%D1%80%D0%B0%D1%81%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B1%D0%BE%D0%B3%D0%BE%D1%81%D0%BB%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9/"
-                ><h3 class="column-title">
+              <h3 class="column-title">
+                <a
+                  href="https://www.godenovo.ru/%D1%80%D0%B0%D1%81%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%B1%D0%BE%D0%B3%D0%BE%D1%81%D0%BB%D1%83%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9/"
+                >
                   Расписание Богослужений в Годеново
-                </h3></a
-              >
+                </a>
+              </h3>
               <div class="video-container">
                 <iframe
                   width="560"
@@ -163,12 +168,12 @@
                   allowfullscreen
                 ></iframe>
               </div>
-              <a href="./chudesa.html"
-                ><h3 class="column-title">Чудеса исцеления в Годеново</h3></a
-              >
-              <a href="./programm3.1.html"
-                ><h3 class="column-title">Экскурсия в село Годеново</h3></a
-              >
+              <h3 class="column-title">
+                <a href="./chudesa.html">Чудеса исцеления в Годеново</a>
+              </h3>
+              <h3 class="column-title">
+                <a href="./programm3.1.html">Экскурсия в село Годеново</a>
+              </h3>
               <h2 class="column-title">ИСТОРИЯ ЯВЛЕНИЯ ЖИВОТВОРЯЩЕГО КРЕСТА</h2>
               <p class="main-description">
                 Крест пришел с неба, «со стороны греческой», и возможно является
@@ -237,9 +242,9 @@
                 Сайт Годеново
                 <a href="https://www.godenovo.ru/">https://www.godenovo.ru/ </a>
               </h3>
-              <a href="./programm3.1.html"
-                ><h3 class="column-title">Паломничество в Годеново</h3></a
-              >
+              <h3 class="column-title">
+                <a href="./programm3.1.html">Паломничество в Годеново</a>
+              </h3>
               <div class="image-block">
                 <div class="godenovo2-image"></div>
               </div>
@@ -255,5 +260,7 @@
         </div>
       </section>
     </page>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
   </body>
 </html>
