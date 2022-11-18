@@ -94,6 +94,9 @@ input {
 .width-500 {
   max-width: 500px;
 }
+.width-250 {
+  max-width: 250px;
+}
 .arrow-right {
   width: 40px;
   height: 40px;
@@ -368,6 +371,7 @@ input {
   padding: 20px 0px;
   border: 1px solid #242424;
   margin: 20px 0px;
+  box-shadow: 1px 1px 3px #999999;
 }
 .room1-image {
   width: 100%;
@@ -502,7 +506,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image2 {
   background-image: url(../images/monastery3.jpg);
@@ -513,7 +518,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image3 {
   background-image: url(../images/GoldRing.jpg);
@@ -523,7 +529,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image4 {
   background-image: url(../images/monastery4.jpg);
@@ -534,7 +541,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image5 {
   background-image: url(../images/monastery5.jpg);
@@ -545,7 +553,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image6 {
   background-image: url(../images/monastery6.jpg);
@@ -556,7 +565,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image7 {
   background-image: url(../images/monastery7.jpg);
@@ -567,7 +577,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image8 {
   background-image: url(../images/monastery8.png);
@@ -578,7 +589,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image9 {
   background-image: url(../images/monastery9.jpg);
@@ -589,7 +601,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image10 {
   background-image: url(../images/saintSpring.jpg);
@@ -600,7 +613,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image11 {
   background-image: url(../images/saintSpring2.jpg);
@@ -611,7 +625,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .pilgrimage-image12 {
   background-image: url(../images/tumbMS.jpg);
@@ -622,7 +637,8 @@ input {
   background-position: center;
   background-size: cover;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 2px solid #555555;
+  box-shadow: 1px 1px 3px #999999;
 }
 .excursion-image {
   width: 100%;
@@ -911,6 +927,30 @@ input {
   background-image: url(../images/feodorovskiy2.jpg);
   width: 100%;
   padding-bottom: 44%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.yrievPolskiy1-image {
+  background-image: url(../images/yrievPolskiy1.jpg);
+  width: 100%;
+  padding-bottom: 28%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.yrievPolskiy2-image {
+  background-image: url(../images/yrievPolskiy2.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.yrievPolskiy3-image {
+  background-image: url(../images/yrievPolskiy3.jpg);
+  width: 100%;
+  padding-bottom: 60%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
