@@ -218,9 +218,13 @@ input {
   font-size: 1.8rem;
   padding: 15px;
   color: #282f37;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .column-title a {
   text-decoration: underline;
+  width: 100%;
 }
 .column-title a:hover {
   background-color: #4582dd;
@@ -250,6 +254,7 @@ input {
   font-size: 1.8rem;
 }
 .block-center {
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -722,6 +727,9 @@ input {
   border: 2px solid goldenrod;
   gap: 5px;
 }
+.schedule-item p {
+  margin: 0 auto;
+}
 .font-size {
   font-size: 24px;
   font-weight: 700;
@@ -976,7 +984,7 @@ input {
   background-position: center;
   background-size: contain;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .layout-2-column {
     display: flex;
     flex-direction: column;
@@ -995,6 +1003,7 @@ input {
     align-items: flex-end;
     justify-content: space-around;
   }
+
   .column-image {
     background-image: url(../images/logo-type.png);
     background-repeat: no-repeat;
@@ -1012,5 +1021,8 @@ input {
   }
   .column-image img {
     opacity: 0;
+  }
+  .font-size {
+    font-size: 18px;
   }
 }
