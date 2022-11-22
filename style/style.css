@@ -28,13 +28,14 @@ a {
   color: #4582dd;
   display: inline-block;
   word-spacing: .1rem;
-  padding: 5px 0px;
+  padding: 5px;
   transition: all .5s ease;
   box-sizing:border-box;
 }
 a:hover {
   text-decoration: underline;
   /* border-bottom: 1px solid #4582dd; */
+
 }
 input {
   padding: 0;
@@ -64,6 +65,9 @@ input {
 .button-up._active {
   visibility: visible;
   opacity: 1;
+}
+.button-up._active:hover {
+  background-color: #333399;
 }
 .wrapper {
   width: 98%;
@@ -209,9 +213,22 @@ input {
   justify-content: flex-start;
 }
 .column-title {
+  width: max-content;
+  box-sizing:border-box;
   font-size: 1.8rem;
-  padding: 20px 0px;
+  padding: 15px;
   color: #282f37;
+}
+.column-title a {
+  text-decoration: underline;
+}
+.column-title a:hover {
+  background-color: #4582dd;
+  color: #fff;
+
+  border-color: transparent;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .font-size36 {
   font-size: 36px;
@@ -341,7 +358,7 @@ input {
   min-width: 150px;
   margin-top: 50px;
 }
-.excursion-link button {
+.excursion-link .button {
   width: 100%;
   background-color: #4582dd;
   padding: 12px 20px;
@@ -350,6 +367,10 @@ input {
   color: #fff;
   font-size: 18px;
   cursor: pointer;
+  transition: all .5s;
+}
+.excursion-link .button:hover {
+  background-color: #333399;
 }
 .description-colored {
   color: #333399;
@@ -369,7 +390,7 @@ input {
   display: flex;
   width: 100%;
   padding: 20px 0px;
-  border: 1px solid #555555;
+  border: 1px solid #999999;
   margin: 20px 0px;
   box-shadow: 1px 1px 3px #999999;
 }
