@@ -984,9 +984,29 @@ input {
   background-position: center;
   background-size: contain;
 }
-.nowrap {
-  display: flex;
-  flex-wrap: nowrap;
+.mikhailSamuil1 {
+  background-image: url(../images/mikhailSamuil.jpg);
+  width: 100%;
+  padding-bottom: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.mikhailSamuil2 {
+  background-image: url(../images/mikhailSamuil2.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.mikhailSamuil3 {
+  background-image: url(../images/mikhailSamuil3.jpg);
+  width: 100%;
+  padding-bottom: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 @media (max-width: 800px) {
   .layout-2-column {
