@@ -213,7 +213,7 @@ input {
   justify-content: flex-start;
 }
 .column-title {
-  width: max-content;
+  max-width: max-content;
   box-sizing:border-box;
   font-size: 1.8rem;
   padding: 15px;
@@ -254,7 +254,7 @@ input {
   font-size: 1.8rem;
 }
 .block-center {
-  width: 100%;
+
   margin: 0 auto;
   text-align: center;
 }
@@ -983,6 +983,10 @@ input {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+.nowrap {
+  display: flex;
+  flex-wrap: nowrap;
 }
 @media (max-width: 800px) {
   .layout-2-column {
