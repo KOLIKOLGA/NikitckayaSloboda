@@ -18,7 +18,8 @@
   </head>
   <body>
     <page class="page">
-      <header class="header">
+      <div class="button-up">на верх</div>
+      <header class="header" id="header">
         <div class="wrapper">
           <div class="logo">
             <a href="index.html"
@@ -120,15 +121,19 @@
               </div>
             </div>
             <div class="right-column">
-              <h2 class="column-title">Исцеления</h2>
+              <h2 class="column-title">
+                <a href="#healing">Чудеса исцеления</a>
+              </h2>
               <div class="display-flex">
-                <p class="main-description">Сайт годеново</p>
-                <a
-                  href="https://www.godenovo.ru/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D1%8F%D1%89%D0%B5%D0%B3%D0%BE-%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0/"
-                  >https://www.godenovo.ru/история-явления-животворящего-креста/</a
-                >
+                <h2 class="column-title block-center">
+                  Сайт годеново
+                  <a
+                    href="https://www.godenovo.ru/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B6%D0%B8%D0%B2%D0%BE%D1%82%D0%B2%D0%BE%D1%80%D1%8F%D1%89%D0%B5%D0%B3%D0%BE-%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%B0/"
+                    >https://www.godenovo.ru/история-явления-животворящего-креста/</a
+                  >
+                </h2>
               </div>
-              <h3 class="column-title title-colored">Исцеления</h3>
+
               <p class="main-description">
                 Чудо исцеления от язвы Роман из Пушкино, Московская область.
                 2016 год. Моя история такая. Я приехал в Годеново к Кресту
@@ -220,23 +225,32 @@
                 будет возможность, обязательно поезжайте поклониться Господу и
                 Честному Животворящему Кресту.
               </p>
-              <a
-                href="https://www.godenovo.ru/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8-2012/"
-                ><h3 class="column-title">Чудо исцеления Годеново 2012</h3></a
-              >
-              <a
-                href="https://www.godenovo.ru/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8-2011/"
-                ><h3 class="column-title">Чудо исцеления Годеново 2011</h3></a
-              >
-              <a
-                href="https://www.godenovo.ru/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8-2010/"
-                ><h3 class="column-title">Чудо исцеления Годеново 2010</h3></a
-              >
+              <h3 class="column-title" id="healing">
+                <a
+                  href="https://www.godenovo.ru/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8-2012/"
+                >
+                  Чудо исцеления Годеново 2012
+                </a>
+              </h3>
+              <h3 class="column-title">
+                <a
+                  href="https://www.godenovo.ru/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8-2011/"
+                  >Чудо исцеления Годеново 2011</a
+                >
+              </h3>
+              <h3 class="column-title">
+                <a
+                  href="https://www.godenovo.ru/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%B8-2010/"
+                  >Чудо исцеления Годеново 2010</a
+                >
+              </h3>
             </div>
             <!--right column-->
           </div>
         </div>
       </section>
     </page>
+    <script src="./scrollToTop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/seamless-scroll-polyfill@latest/lib/bundle.min.js"></script>
   </body>
 </html>
